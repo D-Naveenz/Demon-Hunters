@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 490
     height: 555
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 58
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 118
+  controlID: 121
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -119,14 +119,14 @@ MonoBehaviour:
     y: 0
     width: 450
     height: 939
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 55
+  controlID: 57
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,16 +270,16 @@ MonoBehaviour:
     y: 0
     width: 980
     height: 555
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
   - {fileID: 15}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,14 +316,14 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 783.0604093
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -408,9 +408,9 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: master
@@ -419,104 +419,18 @@ MonoBehaviour:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - b4f0d73880f9fe14482f6ba79d1d7657
-        - c41836c2d1727c142bdc3d7d1e3fb6dc
-        - b14061cba6ee32c44a988e6024f215e3
-        - b3e283c31b10e1441800e69526d60dda
-        - ca4b95175467f454dbcfe155bd295db5
-        - 9a03989a08abb0b48ac29d4a1c03d3ac
-        - 4ed167bd64273d047afac3e95adc3a9c
-        - 43299d62fd72b42b8a02f2c5a96cbbcd
-        - 36e469f68bb3ea841b7b404cbd04f0c1
-        - 776e22c1bd94e471fbfe9f6c607607e8
-        - 2d538628df9361f468188057c55dd7ad
-        - 2aaee31189159094586c2f684ed109fe
-        - 9a59a904c48e7d843a9c817e72f9506b
-        - 7a0e4b045763db244a86a299f6161395
-        - dc244538d540349468e4e5ede5b8ac72
-        - c799f3257486c4cc8bcadc90ada76c2f
-        - ba2d4e2f47a7dbe42862453c69678f54
-        - 427820d6009d24e8099e7b59502ec06a
-        - 778fa29fc3929f24184f727aebf9b5e4
-        - 0a9eb8cdeae5e3241b8e49c077e7f863
-        - 6cad42d5cecac614fa8d463030626ac9
-        - e22bde10e973a492dae899c73037d306
-        - f59e8005bec852841b61f2b0b72d3dad
-        - 8474d9fb064b04f829de875139ce1413
-        - 22c638972965e42ceb0f8766d89b1917
-        - 694eb1a119afa4bf5bb21f23bd6dbe06
-        - a309bead4043043d8ad08016969c7557
-        - f9a01ebd7feb54baea1707e17596c3e4
-        - 0ebecc450af184b508d13e949b3fbeb9
-        - 9a58a0a085a2c4ec5a9094454b34c083
-        - 3a9b905750bb988439aed9a55c18462f
-        - 01ad61d8472c249dfb8a06d7b258eec7
-        - d9104894261b8af4381f80f7d4e18027
-        - 61773f9352d1441f6add2512c917cff0
-        - 1ce090ad43aabee40b2c7f1913e4163f
-        - 3387a518e3a77794699f8dce8aed1c3d
-        - 3f900c7201f73114e9c000aa3b6669bd
-        - 1e02021f69b13884786eaee1256e18c0
-        - dd78a89d82223fe4a9bd5ed6ebf8e12b
-        - 1ffdb984dc29e464ea492168003a959c
-        - 1fa3ae67a4f9ced49bc58995d2f2784f
-        - a633a726c7e5de646b8a4ef73f4285ec
-        - 6a30010554dbdf945b0a89b252c9cd45
-        - 35a2d0d919d44b341867260b31a2ee19
-        - 755725ade49c7344c9e577600fb479a1
-        - a5aac91089865b24b83c92f5f948d0b3
-        - 5ccef6fa2a8acb7489508e96375abe80
-        - 1346c2537091247359ae662a92d46c2c
-        - f05b680003d66204da2866168a0d9476
-        - 1a18d3013b4b2485497b5b0e48a918ff
-        - 38aac998417c2be428982c043ecaa8ed
-        - c490bcd1ac74a524db6f107264cdf3c5
-        - 059cca38f85eb764182ab4a9660b9dcf
-        - c1a21e26c8cf78440a1046ec14f71e4d
-        - a9ad54bb2b14eac4497ac8c5804f946c
-        - dd3d705396a51c94793c5a5a3c611a39
-        - 6664789a61c1aa64e88781339ad2ca82
-        - 18439d703aa93ce4490c359771a1b5d1
-        - 4e87c518afe439343b715bbbb8820b29
-        - 449a43680a3d667468fa734131149d0c
-        - 60e9e91d492fc554ea2d31f9bc1a54e0
-        - a677269eb912e47deb2eb4a48ca8ee2b
-        - 0ea48ee5fa1b8964f82362b07b67f000
-        - 061026edfbdb5344da37026250d9b5e1
-        - eed5d07f8c2b0934681216bc30638d8d
-        - e530dc9117aa1f9429ef1bf090acf206
-        - ef856ad2ae70b8b4f94da229e9951aa5
-        - ab3bca378e9ba8f4aac5711094c8839a
-        - b846d9d3a8c2748d18ab0d59ff18bd55
-        - a9759e5f875979f418a32ca14cdadcad
-        - 36c96940749626148bea12f35cdc7da6
-        - cdf780e60affc4e488c1210b00fd152a
-        - 5e12fcf7e18284fa99e38a820896a768
-        - 83b59dd6af66e5c40b4c904e85e4e9d8
-        - d5c20cbc8d34e1e49a0d24d1f6b7c6ad
-        - 67f9abea835efa843991eafc313c67b1
-        - 101c6660b5a02184f8c63090c6b8d5da
-        - d22947b272f0c3b4c91e21e17ea721e1
-        - 7fe6b54d8d8d7f344b3761b5a0e6445b
-        - 4bfa83e8cbf524542ba782ba47029dd3
-        - 70359751edd22ec4fb2b5f3f07c001bd
-        - d3ba30ca2e74fd9449cd3c05afe703fe
-        - caba2650f118d7d458c2f4a211361f0b
-        - ee1a2ba7a69adbe468261565ce4f3cf4
-        - 72d9505814b754243966d75c7597c9bc
-        - 97324d30bf15f5145bc332f72c95243d
-        - c8cc1e1b33bdce7449b629f4ed6a831c
-        - 8bf1381f67f725a4b97887a1cf0ff1a9
-        - 1568fea614d634248932d058dc90fc16
-        - c5390af6236f2fb4cb66a06a154ce16f
-        - 34ef62d001f3fb1459d66d2bd8bfc765
-        - a395e69386360b444951968bca0ab46f
-        - 6fd7674f715379a48961ed6e1416b1c5
-        - 9ebf5fc4a5e98d149bd6f4bb5b534a8d
-        - 776677ab3818fb249adaca05f4e04545
-        - d09e26172e15ce64690afb42c6708c68
+        - c58f1322c02a93f4ba7ab327b7e88ddb
+        - 83c2ed844a8c74b779a4c823d16594b1
+        - 49110bb8dcada46328ad741970bce702
+        - 8a0c9218a650547d98138cd835033977
+        - a186f8a87ca4f4d3aa864638ad5dfb65
+        - 888804c55962747fb80c27bfbe4e58b6
+        - eabc9546105bf4accac1fd62a63e88e6
+        - 5a9bcd70e6a4b4b05badaa72e827d8e0
+        - 3ad9b87dffba344c89909c6d1b1c17e1
+        - 476cc7d7cd9874016adc216baab94a0a
+        - fcf7219bab7fe46a1ad266029b2fee19
         - 00000000000000004000000000000000
-        - 0000000000000000e100000000000000
         values:
         - path: Assets
           label: Assets
@@ -536,8 +450,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Art
-          label: Art
+        - path: Assets\Help
+          label: Help
           level: 1
           isFolder: 1
           isContainer: 0
@@ -554,279 +468,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Art\Environment
-          label: Environment
+        - path: Assets\Help\Readme.asset
+          label: Readme.asset
           level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\Environment\Blur
-          label: Blur
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\Environment\Blur\SpiderWeb
-          label: SpiderWeb
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-          label: Mat_SpiderWeb_Blur_Wave.mat
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-            projectPath: Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Art\Environment\EnvironmentPieces
-          label: EnvironmentPieces
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\Environment\EnvironmentPieces\Crystals
-          label: Crystals
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-          label: Mat_Sprite_Unlit_GlowPhase.mat
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-            projectPath: Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Art\Environment\EnvironmentPieces\Lamp
-          label: Lamp
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-          label: Mat_Lamp_Core.mat
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-            projectPath: Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Art\UI
-          label: UI
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\UI\Banner
-          label: Banner
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-          label: Mat_UI_BannerWave_L.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-            projectPath: Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-          label: Mat_UI_BannerWave_R.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-            projectPath: Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Art\UI\SpecialCharge
-          label: SpecialCharge
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-          label: Mat_UI_SpecialCharge.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-            projectPath: Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Credits.txt
-          label: Credits.txt
-          level: 1
           isFolder: 0
           isContainer: 1
           isCollapsed: 0
@@ -836,15 +480,15 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Credits.txt
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Credits.txt
-            projectPath: Assets\Credits.txt
+            path: Assets\Help\Readme.asset
+            fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme.asset
+            projectPath: Assets\Help\Readme.asset
             originalPath: 
             indexStatus: 0
             workTreeStatus: 5
-        - path: Assets\RenderPipeline
-          label: RenderPipeline
-          level: 1
+        - path: Assets\Help\Readme
+          label: Readme
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -860,63 +504,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\RenderPipeline\2DRenderer.asset
-          label: 2DRenderer.asset
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\RenderPipeline\2DRenderer.asset
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\RenderPipeline\2DRenderer.asset
-            projectPath: Assets\RenderPipeline\2DRenderer.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-          label: RenderPipelineAsset_Universal_Desktop.asset
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-            projectPath: Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-          label: RenderPipelineAsset_Universal_Mobile.asset
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-            projectPath: Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases
-          label: Sprite Atlases
-          level: 1
+        - path: Assets\Help\Readme\Icons
+          label: Icons
+          level: 3
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -932,199 +522,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Sprite Atlases\Backgrounds.spriteatlas
-          label: Backgrounds.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\Backgrounds.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\Backgrounds.spriteatlas
-            projectPath: Assets\Sprite Atlases\Backgrounds.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases\Characters.spriteatlas
-          label: Characters.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\Characters.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\Characters.spriteatlas
-            projectPath: Assets\Sprite Atlases\Characters.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases\CrystalsGlow.spriteatlas
-          label: CrystalsGlow.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\CrystalsGlow.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\CrystalsGlow.spriteatlas
-            projectPath: Assets\Sprite Atlases\CrystalsGlow.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases\CrystalsHDRTint.spriteatlas
-          label: CrystalsHDRTint.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\CrystalsHDRTint.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\CrystalsHDRTint.spriteatlas
-            projectPath: Assets\Sprite Atlases\CrystalsHDRTint.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases\Environment.spriteatlas
-          label: Environment.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\Environment.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\Environment.spriteatlas
-            projectPath: Assets\Sprite Atlases\Environment.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases\Environment_Normal.spriteatlas
-          label: Environment_Normal.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\Environment_Normal.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\Environment_Normal.spriteatlas
-            projectPath: Assets\Sprite Atlases\Environment_Normal.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases\Environment_Normal_Mask.spriteatlas
-          label: Environment_Normal_Mask.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\Environment_Normal_Mask.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\Environment_Normal_Mask.spriteatlas
-            projectPath: Assets\Sprite Atlases\Environment_Normal_Mask.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases\Environment_Normal_Mask_Rect.spriteatlas
-          label: Environment_Normal_Mask_Rect.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\Environment_Normal_Mask_Rect.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\Environment_Normal_Mask_Rect.spriteatlas
-            projectPath: Assets\Sprite Atlases\Environment_Normal_Mask_Rect.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases\SpriteAtlas_UI_Battle.spriteatlas
-          label: SpriteAtlas_UI_Battle.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\SpriteAtlas_UI_Battle.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\SpriteAtlas_UI_Battle.spriteatlas
-            projectPath: Assets\Sprite Atlases\SpriteAtlas_UI_Battle.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Sprite Atlases\Weapons.spriteatlas
-          label: Weapons.spriteatlas
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprite Atlases\Weapons.spriteatlas
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-              Atlases\Weapons.spriteatlas
-            projectPath: Assets\Sprite Atlases\Weapons.spriteatlas
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\ThirdPartyAssets.txt
-          label: ThirdPartyAssets.txt
-          level: 1
+        - path: Assets\Help\Readme\Icons\Help_Icon.png
+          label: Help_Icon.png
+          level: 4
           isFolder: 0
           isContainer: 1
           isCollapsed: 0
@@ -1134,89 +534,17 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\ThirdPartyAssets.txt
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\ThirdPartyAssets.txt
-            projectPath: Assets\ThirdPartyAssets.txt
+            path: Assets\Help\Readme\Icons\Help_Icon.png
+            fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Help_Icon.png
+            projectPath: Assets\Help\Readme\Icons\Help_Icon.png
             originalPath: 
             indexStatus: 0
             workTreeStatus: 5
-        - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-          label: UniversalRenderPipelineGlobalSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\UniversalRenderPipelineGlobalSettings.asset
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\UniversalRenderPipelineGlobalSettings.asset
-            projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX
-          label: VFX
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\AbilityCharged
-          label: AbilityCharged
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\AbilityCharged\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
-          label: Mat_VFX_AbilityCharged.mat
+        - path: Assets\Help\Readme\Icons\Icon_DragonCrashers.png
+          label: Icon_DragonCrashers.png
           level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -1224,35 +552,17 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
-            projectPath: Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
+            path: Assets\Help\Readme\Icons\Icon_DragonCrashers.png
+            fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Icon_DragonCrashers.png
+            projectPath: Assets\Help\Readme\Icons\Icon_DragonCrashers.png
             originalPath: 
             indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\CameraSortingLayerTexture
-          label: CameraSortingLayerTexture
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
-          label: Mat_Smoke_New.mat
+            workTreeStatus: 5
+        - path: Assets\Help\Readme\Layout.wlt
+          label: Layout.wlt
           level: 3
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -1260,14 +570,14 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
-            projectPath: Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
+            path: Assets\Help\Readme\Layout.wlt
+            fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Layout.wlt
+            projectPath: Assets\Help\Readme\Layout.wlt
             originalPath: 
             indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\CameraSortingLayerTexture\Posterize
-          label: Posterize
+            workTreeStatus: 5
+        - path: Assets\Help\Readme\Scripts
+          label: Scripts
           level: 3
           isFolder: 1
           isContainer: 0
@@ -1284,656 +594,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-          label: Mat_CameraSortingLayerTexture_Posterize.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-            projectPath: Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\CameraSortingLayerTexture\Refraction
-          label: Refraction
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-          label: Mat_CameraSortingLayerTexture_Refraction.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-            projectPath: Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\CameraSortingLayerTexture\Simple
-          label: Simple
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-          label: Mat_CameraSortingLayerTexture.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-            projectPath: Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Crystals
-          label: Crystals
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-          label: Mat_Sprite_Unlit_HDRTint.mat
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-            projectPath: Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\FakeReflection
-          label: FakeReflection
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-          label: Mat_Sprite_FakeReflection.mat
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-            projectPath: Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\FallingRocks
-          label: FallingRocks
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-          label: Mat_FallingRocks_VFX_Dust.mat
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-            projectPath: Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\HitEffect
-          label: HitEffect
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\HitEffect\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-          label: Mat_HitEffect_VFX_AlphaThreshold.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-            projectPath: Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Lake
-          label: Lake
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Lake\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Lake\Materials\Mat_Lake.mat
-          label: Mat_Lake.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Lake\Materials\Mat_Lake.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lake\Materials\Mat_Lake.mat
-            projectPath: Assets\VFX\Lake\Materials\Mat_Lake.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-          label: Mat_Waterfall.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-            projectPath: Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Lava
-          label: Lava
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Lava\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-          label: Mat_Lava_Falling_Vertical.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-            projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-          label: Mat_Lava_Lake.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-            projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-          label: Mat_Lava_Splatters.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-            projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-          label: Mat_Lava_Spriteshape.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-            projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Logo
-          label: Logo
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-          label: Mat_Logo_VFX_Flames.mat
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-            projectPath: Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Moth
-          label: Moth
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Moth\Mat_Moth.mat
-          label: Mat_Moth.mat
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Moth\Mat_Moth.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Moth\Mat_Moth.mat
-            projectPath: Assets\VFX\Moth\Mat_Moth.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\ScreenFade
-          label: ScreenFade
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-          label: Mat_ScreenFade.mat
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-            projectPath: Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\Smoke
-          label: Smoke
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Smoke\Mat_Smoke.mat
-          label: Mat_Smoke.mat
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\Smoke\Mat_Smoke.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Smoke\Mat_Smoke.mat
-            projectPath: Assets\VFX\Smoke\Mat_Smoke.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\StepDust
-          label: StepDust
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-          label: Mat_StepDust_VFX_Dust.mat
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-            projectPath: Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities
-          label: UnitAbilities
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Dragon
-          label: Dragon
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Dragon\Materials
-          label: Materials
+        - path: Assets\Help\Readme\Scripts\Editor
+          label: Editor
           level: 4
           isFolder: 1
           isContainer: 0
@@ -1950,11 +612,11 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
-          label: Mat_Dragon_VFX_Air.mat
+        - path: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
+          label: ReadmeEditor.cs
           level: 5
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -1962,71 +624,17 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
-            projectPath: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
+            path: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
+            fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
+            projectPath: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
             originalPath: 
             indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-          label: Mat_Dragon_VFX_FireAdditive.mat
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-            projectPath: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-          label: Mat_Dragon_VFX_FireAlpha.mat
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-            projectPath: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Knight
-          label: Knight
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
-          label: Mat_Knight_VFX_Tornado.mat
+            workTreeStatus: 5
+        - path: Assets\Help\Readme\Scripts\Readme.cs
+          label: Readme.cs
           level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -2034,246 +642,12 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
-            projectPath: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
+            path: Assets\Help\Readme\Scripts\Readme.cs
+            fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Readme.cs
+            projectPath: Assets\Help\Readme\Scripts\Readme.cs
             originalPath: 
             indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-          label: Mat_Knight_VFX_WindSlash.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-            projectPath: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Witch
-          label: Witch
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-          label: Mat_Witch_VFX_EmberTrail.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-            projectPath: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-          label: Mat_Witch_VFX_EnergyBall.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-            projectPath: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-          label: Mat_Witch_VFX_ThunderBolt.mat
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-            projectPath: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Wolfman
-          label: Wolfman
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Wolfman\AxeSparks
-          label: AxeSparks
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-          label: Mat_Wolfman_VFX_AxeSparks.mat
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-            projectPath: Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter
-          label: EarthShatter
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials
-          label: Materials
-          level: 5
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-          label: Mat_Wolfman_VFX_Cracks.mat
-          level: 6
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-            projectPath: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-          label: Mat_Wolfman_VFX_Embers.mat
-          level: 6
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-            projectPath: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-          label: Mat_Wolfman_VFX_RockSpike.mat
-          level: 6
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-            projectPath: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+            workTreeStatus: 5
         - path: ProjectSettings\ProjectSettings.asset
           label: ProjectSettings.asset
           level: 1
@@ -2287,75 +661,19 @@ MonoBehaviour:
           isLocked: 0
           gitStatusEntry:
             path: ProjectSettings\ProjectSettings.asset
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\ProjectSettings\ProjectSettings.asset
+            fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\ProjectSettings\ProjectSettings.asset
             projectPath: ProjectSettings\ProjectSettings.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: ProjectSettings\ProjectVersion.txt
-          label: ProjectVersion.txt
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ProjectVersion.txt
-            fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\ProjectSettings\ProjectVersion.txt
-            projectPath: ProjectSettings\ProjectVersion.txt
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
       folders:
         keys:
         - Assets
-        - Assets\Art
-        - Assets\Art\Environment
-        - Assets\Art\Environment\Blur
-        - Assets\Art\Environment\Blur\SpiderWeb
-        - Assets\Art\Environment\EnvironmentPieces
-        - Assets\Art\Environment\EnvironmentPieces\Crystals
-        - Assets\Art\Environment\EnvironmentPieces\Lamp
-        - Assets\Art\UI
-        - Assets\Art\UI\Banner
-        - Assets\Art\UI\SpecialCharge
-        - Assets\RenderPipeline
-        - Assets\Sprite Atlases
-        - Assets\VFX
-        - Assets\VFX\AbilityCharged
-        - Assets\VFX\AbilityCharged\Materials
-        - Assets\VFX\CameraSortingLayerTexture
-        - Assets\VFX\CameraSortingLayerTexture\Posterize
-        - Assets\VFX\CameraSortingLayerTexture\Refraction
-        - Assets\VFX\CameraSortingLayerTexture\Simple
-        - Assets\VFX\Crystals
-        - Assets\VFX\FakeReflection
-        - Assets\VFX\FallingRocks
-        - Assets\VFX\HitEffect
-        - Assets\VFX\HitEffect\Materials
-        - Assets\VFX\Lake
-        - Assets\VFX\Lake\Materials
-        - Assets\VFX\Lava
-        - Assets\VFX\Lava\Materials
-        - Assets\VFX\Logo
-        - Assets\VFX\Moth
-        - Assets\VFX\ScreenFade
-        - Assets\VFX\Smoke
-        - Assets\VFX\StepDust
-        - Assets\VFX\UnitAbilities
-        - Assets\VFX\UnitAbilities\Dragon
-        - Assets\VFX\UnitAbilities\Dragon\Materials
-        - Assets\VFX\UnitAbilities\Knight
-        - Assets\VFX\UnitAbilities\Witch
-        - Assets\VFX\UnitAbilities\Wolfman
-        - Assets\VFX\UnitAbilities\Wolfman\AxeSparks
-        - Assets\VFX\UnitAbilities\Wolfman\EarthShatter
-        - Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials
-        - Packages
+        - Assets\Help
+        - Assets\Help\Readme
+        - Assets\Help\Readme\Icons
+        - Assets\Help\Readme\Scripts
+        - Assets\Help\Readme\Scripts\Editor
         - ProjectSettings
         - UserSettings
         - UserSettings\Layouts
@@ -2378,8 +696,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Art
-          label: Art
+        - path: Assets\Help
+          label: Help
           level: 1
           isFolder: 1
           isContainer: 0
@@ -2396,8 +714,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Art\Environment
-          label: Environment
+        - path: Assets\Help\Readme
+          label: Readme
           level: 2
           isFolder: 1
           isContainer: 0
@@ -2414,8 +732,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Art\Environment\Blur
-          label: Blur
+        - path: Assets\Help\Readme\Icons
+          label: Icons
           level: 3
           isFolder: 1
           isContainer: 0
@@ -2432,711 +750,27 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Art\Environment\Blur\SpiderWeb
-          label: SpiderWeb
+        - path: Assets\Help\Readme\Scripts
+          label: Scripts
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Help\Readme\Scripts\Editor
+          label: Editor
           level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\Environment\EnvironmentPieces
-          label: EnvironmentPieces
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\Environment\EnvironmentPieces\Crystals
-          label: Crystals
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\Environment\EnvironmentPieces\Lamp
-          label: Lamp
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\UI
-          label: UI
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\UI\Banner
-          label: Banner
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Art\UI\SpecialCharge
-          label: SpecialCharge
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\RenderPipeline
-          label: RenderPipeline
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprite Atlases
-          label: Sprite Atlases
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX
-          label: VFX
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\AbilityCharged
-          label: AbilityCharged
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\AbilityCharged\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\CameraSortingLayerTexture
-          label: CameraSortingLayerTexture
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\CameraSortingLayerTexture\Posterize
-          label: Posterize
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\CameraSortingLayerTexture\Refraction
-          label: Refraction
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\CameraSortingLayerTexture\Simple
-          label: Simple
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Crystals
-          label: Crystals
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\FakeReflection
-          label: FakeReflection
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\FallingRocks
-          label: FallingRocks
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\HitEffect
-          label: HitEffect
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\HitEffect\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Lake
-          label: Lake
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Lake\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Lava
-          label: Lava
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Lava\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Logo
-          label: Logo
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Moth
-          label: Moth
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\ScreenFade
-          label: ScreenFade
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\Smoke
-          label: Smoke
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\StepDust
-          label: StepDust
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities
-          label: UnitAbilities
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Dragon
-          label: Dragon
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Dragon\Materials
-          label: Materials
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Knight
-          label: Knight
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Witch
-          label: Witch
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Wolfman
-          label: Wolfman
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Wolfman\AxeSparks
-          label: AxeSparks
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter
-          label: EarthShatter
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials
-          label: Materials
-          level: 5
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Packages
-          label: Packages
-          level: 0
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -3252,8 +886,26 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Art
-        label: Art
+      - path: Assets\Help.meta
+        label: Help.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Help.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help.meta
+          projectPath: Assets\Help.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\Help
+        label: Help
         level: 1
         isFolder: 1
         isContainer: 0
@@ -3270,63 +922,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Art\Environment
-        label: Environment
+      - path: Assets\Help\Readme.meta
+        label: Readme.meta
         level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Art\Environment\Blur
-        label: Blur
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Art\Environment\Blur\SpiderWeb
-        label: SpiderWeb
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-        label: Mat_SpiderWeb_Blur_Wave.mat
-        level: 5
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -3336,213 +934,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-          projectPath: Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
+          path: Assets\Help\Readme.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme.meta
+          projectPath: Assets\Help\Readme.meta
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Art\Environment\EnvironmentPieces
-        label: EnvironmentPieces
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Art\Environment\EnvironmentPieces\Crystals
-        label: Crystals
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-        label: Mat_Sprite_Unlit_GlowPhase.mat
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-          projectPath: Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Art\Environment\EnvironmentPieces\Lamp
-        label: Lamp
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-        label: Mat_Lamp_Core.mat
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-          projectPath: Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Art\UI
-        label: UI
+          workTreeStatus: 5
+      - path: Assets\Help\Readme.asset
+        label: Readme.asset
         level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Art\UI\Banner
-        label: Banner
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-        label: Mat_UI_BannerWave_L.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-          projectPath: Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-        label: Mat_UI_BannerWave_R.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-          projectPath: Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Art\UI\SpecialCharge
-        label: SpecialCharge
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-        label: Mat_UI_SpecialCharge.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-          projectPath: Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Credits.txt
-        label: Credits.txt
-        level: 1
         isFolder: 0
         isContainer: 1
         isCollapsed: 0
@@ -3552,15 +952,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Credits.txt
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Credits.txt
-          projectPath: Assets\Credits.txt
+          path: Assets\Help\Readme.asset
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme.asset
+          projectPath: Assets\Help\Readme.asset
           originalPath: 
           indexStatus: 0
           workTreeStatus: 5
-      - path: Assets\Credits.txt.meta
-        label: Credits.txt.meta
-        level: 2
+      - path: Assets\Help\Readme.asset.meta
+        label: Readme.asset.meta
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -3570,15 +970,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Credits.txt.meta
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Credits.txt.meta
-          projectPath: Assets\Credits.txt.meta
+          path: Assets\Help\Readme.asset.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme.asset.meta
+          projectPath: Assets\Help\Readme.asset.meta
           originalPath: 
           indexStatus: 0
           workTreeStatus: 5
-      - path: Assets\RenderPipeline
-        label: RenderPipeline
-        level: 1
+      - path: Assets\Help\Readme
+        label: Readme
+        level: 2
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -3594,9 +994,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\RenderPipeline\2DRenderer.asset
-        label: 2DRenderer.asset
-        level: 2
+      - path: Assets\Help\Readme\Icons.meta
+        label: Icons.meta
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -3606,51 +1006,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\RenderPipeline\2DRenderer.asset
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\RenderPipeline\2DRenderer.asset
-          projectPath: Assets\RenderPipeline\2DRenderer.asset
+          path: Assets\Help\Readme\Icons.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons.meta
+          projectPath: Assets\Help\Readme\Icons.meta
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-        label: RenderPipelineAsset_Universal_Desktop.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-          projectPath: Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-        label: RenderPipelineAsset_Universal_Mobile.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-          projectPath: Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases
-        label: Sprite Atlases
-        level: 1
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Icons
+        label: Icons
+        level: 3
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -3666,199 +1030,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Sprite Atlases\Backgrounds.spriteatlas
-        label: Backgrounds.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\Backgrounds.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\Backgrounds.spriteatlas
-          projectPath: Assets\Sprite Atlases\Backgrounds.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases\Characters.spriteatlas
-        label: Characters.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\Characters.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\Characters.spriteatlas
-          projectPath: Assets\Sprite Atlases\Characters.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases\CrystalsGlow.spriteatlas
-        label: CrystalsGlow.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\CrystalsGlow.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\CrystalsGlow.spriteatlas
-          projectPath: Assets\Sprite Atlases\CrystalsGlow.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases\CrystalsHDRTint.spriteatlas
-        label: CrystalsHDRTint.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\CrystalsHDRTint.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\CrystalsHDRTint.spriteatlas
-          projectPath: Assets\Sprite Atlases\CrystalsHDRTint.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases\Environment.spriteatlas
-        label: Environment.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\Environment.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\Environment.spriteatlas
-          projectPath: Assets\Sprite Atlases\Environment.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases\Environment_Normal.spriteatlas
-        label: Environment_Normal.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\Environment_Normal.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\Environment_Normal.spriteatlas
-          projectPath: Assets\Sprite Atlases\Environment_Normal.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases\Environment_Normal_Mask.spriteatlas
-        label: Environment_Normal_Mask.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\Environment_Normal_Mask.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\Environment_Normal_Mask.spriteatlas
-          projectPath: Assets\Sprite Atlases\Environment_Normal_Mask.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases\Environment_Normal_Mask_Rect.spriteatlas
-        label: Environment_Normal_Mask_Rect.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\Environment_Normal_Mask_Rect.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\Environment_Normal_Mask_Rect.spriteatlas
-          projectPath: Assets\Sprite Atlases\Environment_Normal_Mask_Rect.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases\SpriteAtlas_UI_Battle.spriteatlas
-        label: SpriteAtlas_UI_Battle.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\SpriteAtlas_UI_Battle.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\SpriteAtlas_UI_Battle.spriteatlas
-          projectPath: Assets\Sprite Atlases\SpriteAtlas_UI_Battle.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Sprite Atlases\Weapons.spriteatlas
-        label: Weapons.spriteatlas
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprite Atlases\Weapons.spriteatlas
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite
-            Atlases\Weapons.spriteatlas
-          projectPath: Assets\Sprite Atlases\Weapons.spriteatlas
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\ThirdPartyAssets.txt
-        label: ThirdPartyAssets.txt
-        level: 1
+      - path: Assets\Help\Readme\Icons\Help_Icon.png
+        label: Help_Icon.png
+        level: 4
         isFolder: 0
         isContainer: 1
         isCollapsed: 0
@@ -3868,15 +1042,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\ThirdPartyAssets.txt
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\ThirdPartyAssets.txt
-          projectPath: Assets\ThirdPartyAssets.txt
+          path: Assets\Help\Readme\Icons\Help_Icon.png
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Help_Icon.png
+          projectPath: Assets\Help\Readme\Icons\Help_Icon.png
           originalPath: 
           indexStatus: 0
           workTreeStatus: 5
-      - path: Assets\ThirdPartyAssets.txt.meta
-        label: ThirdPartyAssets.txt.meta
-        level: 2
+      - path: Assets\Help\Readme\Icons\Help_Icon.png.meta
+        label: Help_Icon.png.meta
+        level: 5
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -3886,89 +1060,17 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\ThirdPartyAssets.txt.meta
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\ThirdPartyAssets.txt.meta
-          projectPath: Assets\ThirdPartyAssets.txt.meta
+          path: Assets\Help\Readme\Icons\Help_Icon.png.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Help_Icon.png.meta
+          projectPath: Assets\Help\Readme\Icons\Help_Icon.png.meta
           originalPath: 
           indexStatus: 0
           workTreeStatus: 5
-      - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-        label: UniversalRenderPipelineGlobalSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\UniversalRenderPipelineGlobalSettings.asset
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\UniversalRenderPipelineGlobalSettings.asset
-          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX
-        label: VFX
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\AbilityCharged
-        label: AbilityCharged
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\AbilityCharged\Materials
-        label: Materials
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
-        label: Mat_VFX_AbilityCharged.mat
+      - path: Assets\Help\Readme\Icons\Icon_DragonCrashers.png
+        label: Icon_DragonCrashers.png
         level: 4
         isFolder: 0
-        isContainer: 0
+        isContainer: 1
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -3976,734 +1078,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
-          projectPath: Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
+          path: Assets\Help\Readme\Icons\Icon_DragonCrashers.png
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Icon_DragonCrashers.png
+          projectPath: Assets\Help\Readme\Icons\Icon_DragonCrashers.png
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\CameraSortingLayerTexture
-        label: CameraSortingLayerTexture
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
-        label: Mat_Smoke_New.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
-          projectPath: Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\CameraSortingLayerTexture\Posterize
-        label: Posterize
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-        label: Mat_CameraSortingLayerTexture_Posterize.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-          projectPath: Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\CameraSortingLayerTexture\Refraction
-        label: Refraction
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-        label: Mat_CameraSortingLayerTexture_Refraction.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-          projectPath: Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\CameraSortingLayerTexture\Simple
-        label: Simple
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-        label: Mat_CameraSortingLayerTexture.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-          projectPath: Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Crystals
-        label: Crystals
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-        label: Mat_Sprite_Unlit_HDRTint.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-          projectPath: Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\FakeReflection
-        label: FakeReflection
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-        label: Mat_Sprite_FakeReflection.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-          projectPath: Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\FallingRocks
-        label: FallingRocks
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-        label: Mat_FallingRocks_VFX_Dust.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-          projectPath: Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\HitEffect
-        label: HitEffect
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\HitEffect\Materials
-        label: Materials
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-        label: Mat_HitEffect_VFX_AlphaThreshold.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-          projectPath: Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Lake
-        label: Lake
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\Lake\Materials
-        label: Materials
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\Lake\Materials\Mat_Lake.mat
-        label: Mat_Lake.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Lake\Materials\Mat_Lake.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lake\Materials\Mat_Lake.mat
-          projectPath: Assets\VFX\Lake\Materials\Mat_Lake.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-        label: Mat_Waterfall.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-          projectPath: Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Lava
-        label: Lava
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\Lava\Materials
-        label: Materials
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-        label: Mat_Lava_Falling_Vertical.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-          projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-        label: Mat_Lava_Lake.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-          projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-        label: Mat_Lava_Splatters.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-          projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-        label: Mat_Lava_Spriteshape.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-          projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Logo
-        label: Logo
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-        label: Mat_Logo_VFX_Flames.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-          projectPath: Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Moth
-        label: Moth
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\Moth\Mat_Moth.mat
-        label: Mat_Moth.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Moth\Mat_Moth.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Moth\Mat_Moth.mat
-          projectPath: Assets\VFX\Moth\Mat_Moth.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\ScreenFade
-        label: ScreenFade
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-        label: Mat_ScreenFade.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-          projectPath: Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\Smoke
-        label: Smoke
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\Smoke\Mat_Smoke.mat
-        label: Mat_Smoke.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\Smoke\Mat_Smoke.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Smoke\Mat_Smoke.mat
-          projectPath: Assets\VFX\Smoke\Mat_Smoke.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\StepDust
-        label: StepDust
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-        label: Mat_StepDust_VFX_Dust.mat
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-          projectPath: Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities
-        label: UnitAbilities
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\UnitAbilities\Dragon
-        label: Dragon
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\UnitAbilities\Dragon\Materials
-        label: Materials
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
-        label: Mat_Dragon_VFX_Air.mat
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Icons\Icon_DragonCrashers.png.meta
+        label: Icon_DragonCrashers.png.meta
         level: 5
         isFolder: 0
         isContainer: 0
@@ -4714,15 +1096,33 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
-          projectPath: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
+          path: Assets\Help\Readme\Icons\Icon_DragonCrashers.png.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Icon_DragonCrashers.png.meta
+          projectPath: Assets\Help\Readme\Icons\Icon_DragonCrashers.png.meta
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-        label: Mat_Dragon_VFX_FireAdditive.mat
-        level: 5
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Layout.wlt
+        label: Layout.wlt
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Help\Readme\Layout.wlt
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Layout.wlt
+          projectPath: Assets\Help\Readme\Layout.wlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Layout.wlt.meta
+        label: Layout.wlt.meta
+        level: 4
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -4732,15 +1132,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-          projectPath: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
+          path: Assets\Help\Readme\Layout.wlt.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Layout.wlt.meta
+          projectPath: Assets\Help\Readme\Layout.wlt.meta
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-        label: Mat_Dragon_VFX_FireAlpha.mat
-        level: 5
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Scripts.meta
+        label: Scripts.meta
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -4750,14 +1150,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-          projectPath: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
+          path: Assets\Help\Readme\Scripts.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts.meta
+          projectPath: Assets\Help\Readme\Scripts.meta
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Knight
-        label: Knight
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Scripts
+        label: Scripts
         level: 3
         isFolder: 1
         isContainer: 0
@@ -4774,8 +1174,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
-        label: Mat_Knight_VFX_Tornado.mat
+      - path: Assets\Help\Readme\Scripts\Editor.meta
+        label: Editor.meta
         level: 4
         isFolder: 0
         isContainer: 0
@@ -4786,122 +1186,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
-          projectPath: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
+          path: Assets\Help\Readme\Scripts\Editor.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Editor.meta
+          projectPath: Assets\Help\Readme\Scripts\Editor.meta
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-        label: Mat_Knight_VFX_WindSlash.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-          projectPath: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Witch
-        label: Witch
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-        label: Mat_Witch_VFX_EmberTrail.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-          projectPath: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-        label: Mat_Witch_VFX_EnergyBall.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-          projectPath: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-        label: Mat_Witch_VFX_ThunderBolt.mat
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-          projectPath: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Wolfman
-        label: Wolfman
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\UnitAbilities\Wolfman\AxeSparks
-        label: AxeSparks
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Scripts\Editor
+        label: Editor
         level: 4
         isFolder: 1
         isContainer: 0
@@ -4918,11 +1210,11 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-        label: Mat_Wolfman_VFX_AxeSparks.mat
+      - path: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
+        label: ReadmeEditor.cs
         level: 5
         isFolder: 0
-        isContainer: 0
+        isContainer: 1
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -4930,50 +1222,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-          projectPath: Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
+          path: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
+          projectPath: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter
-        label: EarthShatter
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials
-        label: Materials
-        level: 5
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-        label: Mat_Wolfman_VFX_Cracks.mat
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs.meta
+        label: ReadmeEditor.cs.meta
         level: 6
         isFolder: 0
         isContainer: 0
@@ -4984,15 +1240,33 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-          projectPath: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
+          path: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs.meta
+          projectPath: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs.meta
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-        label: Mat_Wolfman_VFX_Embers.mat
-        level: 6
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Scripts\Readme.cs
+        label: Readme.cs
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Help\Readme\Scripts\Readme.cs
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Readme.cs
+          projectPath: Assets\Help\Readme\Scripts\Readme.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\Help\Readme\Scripts\Readme.cs.meta
+        label: Readme.cs.meta
+        level: 5
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -5002,84 +1276,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-          projectPath: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
+          path: Assets\Help\Readme\Scripts\Readme.cs.meta
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Readme.cs.meta
+          projectPath: Assets\Help\Readme\Scripts\Readme.cs.meta
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-        label: Mat_Wolfman_VFX_RockSpike.mat
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-          projectPath: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Packages
-        label: Packages
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages\manifest.json
-        label: manifest.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\manifest.json
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Packages\manifest.json
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Packages\packages-lock.json
-        label: packages-lock.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\packages-lock.json
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
+          workTreeStatus: 5
       - path: ProjectSettings
         label: ProjectSettings
         level: 0
@@ -5111,26 +1313,8 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\ProjectSettings\ProjectSettings.asset
           projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -5165,7 +1349,7 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\UserSettings\EditorUserSettings.asset
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
           indexStatus: 0
@@ -5201,11 +1385,11 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: UserSettings\Layouts\default-2023.dwlt
-          fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\UserSettings\Layouts\default-2023.dwlt
+          fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\UserSettings\Layouts\default-2023.dwlt
           projectPath: UserSettings\Layouts\default-2023.dwlt
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -5226,384 +1410,132 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-      projectPath: Assets\Art\Environment\Blur\SpiderWeb\Mat_SpiderWeb_Blur_Wave.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-      projectPath: Assets\Art\Environment\EnvironmentPieces\Crystals\Mat_Sprite_Unlit_GlowPhase.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-      projectPath: Assets\Art\Environment\EnvironmentPieces\Lamp\Mat_Lamp_Core.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-      projectPath: Assets\Art\UI\Banner\Mat_UI_BannerWave_L.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-      projectPath: Assets\Art\UI\Banner\Mat_UI_BannerWave_R.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-      projectPath: Assets\Art\UI\SpecialCharge\Mat_UI_SpecialCharge.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Credits.txt
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Credits.txt
-      projectPath: Assets\Credits.txt
+    - path: Assets\Help.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help.meta
+      projectPath: Assets\Help.meta
       originalPath: 
       indexStatus: 0
       workTreeStatus: 5
-    - path: Assets\Credits.txt.meta
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Credits.txt.meta
-      projectPath: Assets\Credits.txt.meta
+    - path: Assets\Help\Readme.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme.meta
+      projectPath: Assets\Help\Readme.meta
       originalPath: 
       indexStatus: 0
       workTreeStatus: 5
-    - path: Assets\RenderPipeline\2DRenderer.asset
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\RenderPipeline\2DRenderer.asset
-      projectPath: Assets\RenderPipeline\2DRenderer.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-      projectPath: Assets\RenderPipeline\RenderPipelineAsset_Universal_Desktop.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-      projectPath: Assets\RenderPipeline\RenderPipelineAsset_Universal_Mobile.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\Backgrounds.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\Backgrounds.spriteatlas
-      projectPath: Assets\Sprite Atlases\Backgrounds.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\Characters.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\Characters.spriteatlas
-      projectPath: Assets\Sprite Atlases\Characters.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\CrystalsGlow.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\CrystalsGlow.spriteatlas
-      projectPath: Assets\Sprite Atlases\CrystalsGlow.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\CrystalsHDRTint.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\CrystalsHDRTint.spriteatlas
-      projectPath: Assets\Sprite Atlases\CrystalsHDRTint.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\Environment.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\Environment.spriteatlas
-      projectPath: Assets\Sprite Atlases\Environment.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\Environment_Normal.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\Environment_Normal.spriteatlas
-      projectPath: Assets\Sprite Atlases\Environment_Normal.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\Environment_Normal_Mask.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\Environment_Normal_Mask.spriteatlas
-      projectPath: Assets\Sprite Atlases\Environment_Normal_Mask.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\Environment_Normal_Mask_Rect.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\Environment_Normal_Mask_Rect.spriteatlas
-      projectPath: Assets\Sprite Atlases\Environment_Normal_Mask_Rect.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\SpriteAtlas_UI_Battle.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\SpriteAtlas_UI_Battle.spriteatlas
-      projectPath: Assets\Sprite Atlases\SpriteAtlas_UI_Battle.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Sprite Atlases\Weapons.spriteatlas
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\Sprite Atlases\Weapons.spriteatlas
-      projectPath: Assets\Sprite Atlases\Weapons.spriteatlas
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\ThirdPartyAssets.txt
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\ThirdPartyAssets.txt
-      projectPath: Assets\ThirdPartyAssets.txt
+    - path: Assets\Help\Readme.asset
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme.asset
+      projectPath: Assets\Help\Readme.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 5
-    - path: Assets\ThirdPartyAssets.txt.meta
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\ThirdPartyAssets.txt.meta
-      projectPath: Assets\ThirdPartyAssets.txt.meta
+    - path: Assets\Help\Readme.asset.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme.asset.meta
+      projectPath: Assets\Help\Readme.asset.meta
       originalPath: 
       indexStatus: 0
       workTreeStatus: 5
-    - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\UniversalRenderPipelineGlobalSettings.asset
-      projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+    - path: Assets\Help\Readme\Icons.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons.meta
+      projectPath: Assets\Help\Readme\Icons.meta
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
-      projectPath: Assets\VFX\AbilityCharged\Materials\Mat_VFX_AbilityCharged.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Icons\Help_Icon.png
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Help_Icon.png
+      projectPath: Assets\Help\Readme\Icons\Help_Icon.png
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
-      projectPath: Assets\VFX\CameraSortingLayerTexture\Mat_Smoke_New.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Icons\Help_Icon.png.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Help_Icon.png.meta
+      projectPath: Assets\Help\Readme\Icons\Help_Icon.png.meta
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
-      projectPath: Assets\VFX\CameraSortingLayerTexture\Posterize\Mat_CameraSortingLayerTexture_Posterize.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Icons\Icon_DragonCrashers.png
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Icon_DragonCrashers.png
+      projectPath: Assets\Help\Readme\Icons\Icon_DragonCrashers.png
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
-      projectPath: Assets\VFX\CameraSortingLayerTexture\Refraction\Mat_CameraSortingLayerTexture_Refraction.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Icons\Icon_DragonCrashers.png.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Icons\Icon_DragonCrashers.png.meta
+      projectPath: Assets\Help\Readme\Icons\Icon_DragonCrashers.png.meta
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
-      projectPath: Assets\VFX\CameraSortingLayerTexture\Simple\Mat_CameraSortingLayerTexture.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Layout.wlt
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Layout.wlt
+      projectPath: Assets\Help\Readme\Layout.wlt
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
-      projectPath: Assets\VFX\Crystals\Mat_Sprite_Unlit_HDRTint.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Layout.wlt.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Layout.wlt.meta
+      projectPath: Assets\Help\Readme\Layout.wlt.meta
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
-      projectPath: Assets\VFX\FakeReflection\Mat_Sprite_FakeReflection.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Scripts.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts.meta
+      projectPath: Assets\Help\Readme\Scripts.meta
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
-      projectPath: Assets\VFX\FallingRocks\Mat_FallingRocks_VFX_Dust.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Scripts\Editor.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Editor.meta
+      projectPath: Assets\Help\Readme\Scripts\Editor.meta
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
-      projectPath: Assets\VFX\HitEffect\Materials\Mat_HitEffect_VFX_AlphaThreshold.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
+      projectPath: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Lake\Materials\Mat_Lake.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lake\Materials\Mat_Lake.mat
-      projectPath: Assets\VFX\Lake\Materials\Mat_Lake.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs.meta
+      projectPath: Assets\Help\Readme\Scripts\Editor\ReadmeEditor.cs.meta
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lake\Materials\Mat_Waterfall.mat
-      projectPath: Assets\VFX\Lake\Materials\Mat_Waterfall.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Scripts\Readme.cs
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Readme.cs
+      projectPath: Assets\Help\Readme\Scripts\Readme.cs
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
-      projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Falling_Vertical.mat
+      workTreeStatus: 5
+    - path: Assets\Help\Readme\Scripts\Readme.cs.meta
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\Assets\Help\Readme\Scripts\Readme.cs.meta
+      projectPath: Assets\Help\Readme\Scripts\Readme.cs.meta
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-      projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Lake.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-      projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Splatters.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-      projectPath: Assets\VFX\Lava\Materials\Mat_Lava_Spriteshape.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-      projectPath: Assets\VFX\Logo\Mat_Logo_VFX_Flames.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Moth\Mat_Moth.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Moth\Mat_Moth.mat
-      projectPath: Assets\VFX\Moth\Mat_Moth.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-      projectPath: Assets\VFX\ScreenFade\Mat_ScreenFade.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\Smoke\Mat_Smoke.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\Smoke\Mat_Smoke.mat
-      projectPath: Assets\VFX\Smoke\Mat_Smoke.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-      projectPath: Assets\VFX\StepDust\Mat_StepDust_VFX_Dust.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
-      projectPath: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_Air.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-      projectPath: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAdditive.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-      projectPath: Assets\VFX\UnitAbilities\Dragon\Materials\Mat_Dragon_VFX_FireAlpha.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
-      projectPath: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_Tornado.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-      projectPath: Assets\VFX\UnitAbilities\Knight\Mat_Knight_VFX_WindSlash.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-      projectPath: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EmberTrail.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-      projectPath: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_EnergyBall.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-      projectPath: Assets\VFX\UnitAbilities\Witch\Mat_Witch_VFX_ThunderBolt.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-      projectPath: Assets\VFX\UnitAbilities\Wolfman\AxeSparks\Mat_Wolfman_VFX_AxeSparks.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-      projectPath: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Cracks.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-      projectPath: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_Embers.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-      projectPath: Assets\VFX\UnitAbilities\Wolfman\EarthShatter\Materials\Mat_Wolfman_VFX_RockSpike.mat
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Packages\manifest.json
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Packages\manifest.json
-      projectPath: Packages\manifest.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Packages\packages-lock.json
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\Packages\packages-lock.json
-      projectPath: Packages\packages-lock.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
+      workTreeStatus: 5
     - path: ProjectSettings\ProjectSettings.asset
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\ProjectSettings\ProjectSettings.asset
       projectPath: ProjectSettings\ProjectSettings.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: ProjectSettings\ProjectVersion.txt
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\ProjectSettings\ProjectVersion.txt
-      projectPath: ProjectSettings\ProjectVersion.txt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: UserSettings\EditorUserSettings.asset
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\UserSettings\EditorUserSettings.asset
       projectPath: UserSettings\EditorUserSettings.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
     - path: UserSettings\Layouts\default-2023.dwlt
-      fullPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters\UserSettings\Layouts\default-2023.dwlt
+      fullPath: C:\Users\dashe\My Projects\Unity\Demon Hunters\UserSettings\Layouts\default-2023.dwlt
       projectPath: UserSettings\Layouts\default-2023.dwlt
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 62 changed files
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 20 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-09-24T00:47:11.683+05:30
+      updatedTimeString: 2023-09-24T03:00:31.695+05:30
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-09-24T00:54:19.631+05:30
+      updatedTimeString: 2023-09-24T03:03:06.433+05:30
       cacheType: 6
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -5826,13 +1758,13 @@ MonoBehaviour:
     m_Tooltip: Add a remote in the Settings tab
     m_TextWithWhitespace: "No remote configured\u200B"
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-09-24T00:34:11.338+05:30
+    updatedTimeString: 2023-09-24T01:20:41.257+05:30
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-09-24T00:22:15.171+05:30
+    updatedTimeString: 2023-09-24T01:20:42.585+05:30
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-09-24T00:54:19.631+05:30
+    updatedTimeString: 2023-09-24T01:24:09.938+05:30
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -5854,7 +1786,7 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Fetch\u200B"
-  repositoryProgressValue: 0
+  repositoryProgressValue: 1
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
@@ -6054,7 +1986,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -24, y: 25}
+      snapOffsetDelta: {x: -24, y: 0}
       snapCorner: 1
       id: unity-search-toolbar
       index: 1
@@ -6106,7 +2038,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       id: Scene View/Light Settings
       index: 3
@@ -6132,7 +2064,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Constraints
       index: 5
@@ -6145,7 +2077,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Collisions
       index: 6
@@ -6197,7 +2129,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       id: Scene View/Occlusion Culling
       index: 7
@@ -6210,7 +2142,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       id: Scene View/Physics Debugger
       index: 8
@@ -6223,7 +2155,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       id: Scene View/Scene Visibility
       index: 9
@@ -6456,9 +2388,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 48, y: 48}
+      snapOffset: {x: -207, y: -242}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       id: AINavigationOverlay
       index: 16
       layout: 4
@@ -6490,9 +2422,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -15.593907, y: 1.6407958, z: 0.013857139}
+    m_Target: {x: 0.47884336, y: 0.84675467, z: 0.057329223}
     speed: 2
-    m_Value: {x: -15.593907, y: 1.6407958, z: 0.013857139}
+    m_Value: {x: 0.47884336, y: 0.84675467, z: 0.057329223}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -6542,9 +2474,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.0693781
+    m_Target: 2.5418203
     speed: 2
-    m_Value: 2.0693781
+    m_Value: 2.5418203
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -6617,7 +2549,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Art/UI/GameLogo
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -6627,16 +2559,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Art/UI/GameLogo
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\dashe\My Projects\Unity\Daemon Hunters
+  m_LastProjectPath: C:\Users\dashe\My Projects\Unity\Demon Hunters
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 64980000
-    m_LastClickedID: 39012
-    m_ExpandedIDs: 000000006498000066980000689800006a9800006c9800007098000072980000749800007698000078980000b4980000e0980000c8a5000000ca9a3b
+    scrollPos: {x: 0, y: 120}
+    m_SelectedIDs: 3a7f0000
+    m_LastClickedID: 32570
+    m_ExpandedIDs: 00000000ee7e0000f07e0000f27e0000f47e0000f67e0000f87e0000fa7e0000fc7e0000fe7e0000007f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6661,10 +2593,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 151}
-    m_SelectedIDs: e41b0100
+    scrollPos: {x: 0, y: 674}
+    m_SelectedIDs: 52bcffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006498000066980000689800006a9800006c9800006e98000070980000729800007498000076980000789800007a980000
+    m_ExpandedIDs: 00000000ee7e0000f07e0000f27e0000f47e0000f67e0000f87e0000fa7e0000fc7e0000fe7e0000007f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -6763,7 +2695,7 @@ MonoBehaviour:
     m_CachedPref: 199
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -7930
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -6810,9 +2742,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: dc980000
+      m_SelectedIDs: e4760000
       m_LastClickedID: 0
-      m_ExpandedIDs: e2f5ffff
+      m_ExpandedIDs: acfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
